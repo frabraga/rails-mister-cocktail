@@ -1,0 +1,7 @@
+<h1>New dose</h1>
+
+<%= simple_form_for @dose do |d| %>
+  <%= d.association :description %>
+  <%= d.association :ingredients %>
+  <%= d.button :submit %>
+<% end %>
