@@ -1,4 +1,4 @@
-<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= cl_image_path('wqki7lzxbo3fzwmp26fm') %>);">
+<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= cl_image_path(c.photo) %>);">
   <div class="card-category">Drink</div>
   <div class="card-description">
     <h2><%= c.name %> </h2>
@@ -10,7 +10,7 @@
         <% end %>
     </p>
   </div>
-  <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+  <!-- <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay"> -->
 
   <%= link_to '#', c, class: "card-link"  %>
 </div>
